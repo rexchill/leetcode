@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
-
+// T88:合并两个有序数组
 func merge(nums1 []int, m int, nums2 []int, n int) {
 
 	if m == 0 {
@@ -39,9 +36,10 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
 		nums1[j] = nums2[j]
 	}
 }
-func main() {
-	nums1 := []int{4, 5, 6, 0, 0, 0}
-	nums2 := []int{1, 2, 3}
-	merge(nums1, 3, nums2, 3)
-	fmt.Println(nums1)
-}
+
+//func main() {
+//	nums1 := []int{4, 5, 6, 0, 0, 0}
+//	nums2 := []int{1, 2, 3}
+//	merge(nums1, 3, nums2, 3)
+//	fmt.Println(nums1)
+//}

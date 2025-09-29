@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // T169:多数元素
 func majorityElement(nums []int) int {
 	num := nums[0]
@@ -36,7 +34,7 @@ func majorityElement(nums []int) int {
 	    return
 	}
 */
-func main() {
-	nums := []int{2, 2, 1, 1, 1, 2, 2}
-	fmt.Println(majorityElement(nums))
-}
+//func main() {
+//	nums := []int{2, 2, 1, 1, 1, 2, 2}
+//	fmt.Println(majorityElement(nums))
+//}
